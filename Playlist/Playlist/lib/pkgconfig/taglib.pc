@@ -1,0 +1,11 @@
+prefix=/home/aluno/prg2
+exec_prefix=/home/aluno/prg2
+libdir=/home/aluno/prg2/lib
+includedir=/home/aluno/prg2/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.11.1
+Libs: -L${libdir} -ltag
+Cflags: -I${includedir}/taglib
